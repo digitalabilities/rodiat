@@ -1,0 +1,131 @@
+.grandfather{
+    display: flex;
+    justify-content: center;
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.secondson{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.secondson a{
+    text-decoration: none;
+}
+.grandmother{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}a
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.mother .righthandside .parent p{
+    margin-top: -5px;
+}
+.child-hood{
+    display: flex;
+    justify-content: center;
+}
+.rodiat{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.firstgrandson, .secondgrandson, .thirdgrandson, .fourthgrandson{
+    width: 100px;
+    height: 100px;
+}
+.firstgrandson img, .secondgrandson img, .thirdgrandson img, .fourthgrandson img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 250px) and 
+(max-width: 500px){
+    .grandfather{
+    display: flex;
+    justify-content: center;
+}
+.father{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    padding-bottom: 20px;
+}
+.secondson{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+.secondson a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.grandmother{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.mother{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.mother .righthandside .parent p{
+    margin-top: -5px;
+}
+.child-hood{
+    display: flex;
+    justify-content: center;
+}
+.rodiat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.firstgrandson, .secondgrandson, .thirdgrandson, .fourthgrandson{
+    width: 70px;
+    height: 70px;
+}
+.firstgrandson img, .secondgrandson img, .thirdgrandson img, .fourthgrandson img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grandmother .mother .lefthandside img{
+    width: 100px;
+}
+.button button {
+    width: 70px;
+    font-size: 10px;
+}
+.grandmother .mother .righthandside .parent h1{
+    width: 100px;
+}
+
+}
+
+
+
+
